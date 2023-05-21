@@ -70,7 +70,6 @@ int main()
     char ch = 0;
     int stringSize = 0;
     int spaceCount = 0, lastSpaceFlag = 0;
-    //printf("%d\n", strToNum("1234", 3));
     int *numdatasarr = readInputBuffer(str, ch, &stringSize, &spaceCount, &lastSpaceFlag );
     printf("%d",*numdatasarr);
     str[stringSize] = ' ';
